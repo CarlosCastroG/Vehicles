@@ -8,7 +8,7 @@ using Vehicles.API.Data;
 
 namespace Vehicles.API.Migrations
 {
-    [DbContext(typeof(DataConext))]
+    [DbContext(typeof(DataContext))]
     [Migration("20210828203846_AddVehicleType")]
     partial class AddVehicleType
     {

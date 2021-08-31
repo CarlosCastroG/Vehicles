@@ -20,7 +20,7 @@ namespace Vehicles.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<DataConext>(x =>
+            services.AddDbContext<DataContext>(x =>
             {
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });

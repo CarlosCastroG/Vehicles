@@ -9,9 +9,9 @@ namespace Vehicles.API.Controllers
 {
     public class ProceduresController : Controller
     {
-        private readonly DataConext _context;
+        private readonly DataContext _context;
 
-        public ProceduresController(DataConext context)
+        public ProceduresController(DataContext context)
         {
             _context = context;
         }
